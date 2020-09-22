@@ -10,4 +10,4 @@ else
 fi
 sed -i "s/rpc-secret=.*$/rpc-secret=$token/" /aria2/conf/aria2.conf
 
-/aria2/bin/aria2c --conf-path=/aria2/conf/aria2.conf
+/usr/bin/aria2c --conf-path=/aria2/conf/aria2.conf
