@@ -1,4 +1,4 @@
-FROM alpine:3.23
+FROM alpine:3.24
 
 COPY aria2/ /aria2/
 
